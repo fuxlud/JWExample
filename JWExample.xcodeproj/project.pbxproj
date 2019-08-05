@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19D28BD022F834F00014FC07 /* JWVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D28BCF22F834F00014FC07 /* JWVideoView.swift */; };
 		5C2901831F8F6DE700803663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */; };
 		893900D28F2E2698B13FAD15 /* Pods_JWExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31047EC8DECAA926878D1DBF /* Pods_JWExample.framework */; };
 		AFCDBA33218F8F0000B1C80C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCDBA32218F8F0000B1C80C /* ViewController.swift */; };
@@ -18,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		10A311209242814119B622EB /* Pods-JWExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWExample/Pods-JWExample.debug.xcconfig"; sourceTree = "<group>"; };
+		19D28BCF22F834F00014FC07 /* JWVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWVideoView.swift; sourceTree = "<group>"; };
+		19D28BD122F835150014FC07 /* JWExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JWExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		31047EC8DECAA926878D1DBF /* Pods_JWExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD83F43B6A230F0D6DD19E14 /* Pods-JWExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWExample/Pods-JWExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +69,7 @@
 				D2A5F2011F4A9144005CD714 /* Products */,
 				6ADB6C7B8D88315A4AE44546 /* Pods */,
 				BBF41507EE90FD93C7BDD49C /* Frameworks */,
+				19D28BD122F835150014FC07 /* JWExample-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -89,6 +93,7 @@
 				D2A5F20F1F4A9144005CD714 /* Info.plist */,
 				AFCDBA32218F8F0000B1C80C /* ViewController.swift */,
 				AFCDBA3E218F960700B1C80C /* Cell.swift */,
+				19D28BCF22F834F00014FC07 /* JWVideoView.swift */,
 			);
 			path = JWExample;
 			sourceTree = "<group>";
@@ -127,7 +132,7 @@
 				TargetAttributes = {
 					D2A5F1FF1F4A9144005CD714 = {
 						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -217,6 +222,7 @@
 				AFCDBA33218F8F0000B1C80C /* ViewController.swift in Sources */,
 				D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */,
 				AFCDBA3F218F960700B1C80C /* Cell.swift in Sources */,
+				19D28BD022F834F00014FC07 /* JWVideoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +362,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.culturetrip.JWExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JWExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -373,6 +380,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.culturetrip.JWExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JWExample-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
