@@ -30,7 +30,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O61-hR-1vC" customClass="JWVideoView" customModule="JWExample" customModuleProvider="target">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O61-hR-1vC" customClass="JWVideoView" customModule="JWExample" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </view>
@@ -42,6 +42,9 @@
                                     <constraint firstAttribute="bottom" secondItem="O61-hR-1vC" secondAttribute="bottom" id="gIv-mr-qHd"/>
                                     <constraint firstAttribute="trailing" secondItem="O61-hR-1vC" secondAttribute="trailing" id="k43-Qz-hyN"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="videoView" destination="O61-hR-1vC" id="xyF-i6-2e8"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
